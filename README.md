@@ -14,4 +14,4 @@ Adding MVP templates to Android Studio:
 
 If templates disappear after Android Studio update, just add them again in the same way.
 
-Note that you use it at your own risk. I give 0 F's if something goes wrong.
+Note that you use it at your own risk.
