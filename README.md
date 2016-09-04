@@ -6,10 +6,11 @@ Adding MVP templates to Android Studio:
 	<li> Download templates
 	<li> Copy folders MVPActivity and MVPFragment to ANDROID_STUDIO_DIR/plugins/android/lib/templates/other</li>
 	<li> Restart Android Studio</li>
-  <li> Select your package and go to File->New->MVP->MVPActivity or MVPFragment</li>
-  <li> ???</li>
-  <li> PROFIT!</li>
+  	<li> Select your package and go to File->New->MVP->MVPActivity or MVPFragment</li>
+  	<li> ???</li>
+  	<li> PROFIT!</li>
 </ul>
+![Using templates](https://raw.githubusercontent.com/yaroslavyadrov/MVPTemplates/master/images/example.png)
 
 If templates disappear after Android Studio update, just add them again in the same way.
 
