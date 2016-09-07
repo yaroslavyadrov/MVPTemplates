@@ -85,7 +85,7 @@
         constraints="class|nonempty|unique"
         default="BlankView"
         visibility="includeView"
-        suggest="${underscoreToCamelCase(classToResource(className))}View"
+        suggest="${underscoreToCamelCase(classToResource(className))}MvpView"
         help="The name of the view interface to create" />
 
     <parameter
