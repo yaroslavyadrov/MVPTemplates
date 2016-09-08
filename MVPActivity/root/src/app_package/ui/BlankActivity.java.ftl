@@ -26,8 +26,7 @@ public class ${className} extends AppCompatActivity <#if includeView>implements 
 	public static final String TAG = "${className}";
 
 	<#if includePresenter>
-	@Inject
-	${presenterName} presenter;
+	@Inject	${presenterName} presenter;
 	</#if>
 
 	<#if includeFactory>

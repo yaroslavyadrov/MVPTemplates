@@ -22,8 +22,7 @@ public class ${className} extends Fragment <#if includeView>implements ${viewNam
   public static final String TAG = "${className}";
 
   <#if includePresenter>
-  @Inject
-  ${presenterName} presenter;
+  @Inject ${presenterName} presenter;
   </#if>
 
 <#if includeFactory>
