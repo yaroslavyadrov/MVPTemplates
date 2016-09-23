@@ -3,8 +3,6 @@
     <application>
         <activity
             android:name="${relativePackage}.ui${dotSubpackage}.${className}"
-            android:configChanges="orientation"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme"/>
+            android:screenOrientation="portrait"/>
     </application>
 </manifest>
