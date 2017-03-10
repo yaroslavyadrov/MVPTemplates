@@ -23,14 +23,13 @@ public class ${className} extends BaseActivity <#if includeView>implements ${vie
 <#else>
 public class ${className} extends AppCompatActivity <#if includeView>implements ${viewName} </#if>{
 </#if>
-	public static final String TAG = "${className}";
 
 	<#if includePresenter>
 	@Inject	${presenterName} presenter;
 	</#if>
 
 	<#if includeFactory>
-	public static Intent getStartIntent(final Context context) {
+	public static Intent createStartIntent(final Context context) {
 		Intent intent = new Intent(context, ${className}.class);
 
 		return intent;
