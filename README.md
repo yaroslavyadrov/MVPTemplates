@@ -10,6 +10,7 @@ Adding MVP templates to Android Studio:
   	<li> ???</li>
   	<li> PROFIT!</li>
 </ul>
+
 ![Using templates](https://raw.githubusercontent.com/yaroslavyadrov/MVPTemplates/master/images/example.png)
 
 If templates disappear after Android Studio update, just add them again in the same way.
