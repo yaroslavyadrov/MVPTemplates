@@ -12,11 +12,13 @@ import javax.inject.Inject
 </#if>
 
 <#if extendsBaseActivity>
-class ${className} :
-    BaseActivity()<#if !includeView> {</#if>
-		<#if includeView>, ${viewName} </#if>{
+class ${className} : <#if !includeView>BaseActivity() {</#if>
+    <#if includeView>BaseActivity(),
+		${viewName} {</#if>
 <#else>
-class ${className} : AppCompatActivity()<#if includeView>, ${viewName} </#if>{
+class ${className} : <#if !includeView>AppCompatActivity() {</#if>
+    <#if includeView>AppCompatActivity(),
+		${viewName} {</#if>
 </#if>
 
 	<#if includePresenter>
