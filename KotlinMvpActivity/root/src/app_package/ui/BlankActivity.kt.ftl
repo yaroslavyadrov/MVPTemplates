@@ -12,7 +12,9 @@ import javax.inject.Inject
 </#if>
 
 <#if extendsBaseActivity>
-class ${className} : BaseActivity()<#if includeView>, ${viewName} </#if>{
+class ${className} :
+    BaseActivity()<#if !includeView> {</#if>
+		<#if includeView>, ${viewName} </#if>{
 <#else>
 class ${className} : AppCompatActivity()<#if includeView>, ${viewName} </#if>{
 </#if>
