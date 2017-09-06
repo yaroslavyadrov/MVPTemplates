@@ -1,5 +1,5 @@
 # MVPTemplates
-File Templates for Android MVP project inspired by [Moxy Templates](https://github.com/Arello-Mobile/Moxy/tree/master/moxy-templates)
+File  Templates for Android MVP project inspired by [Moxy Templates](https://github.com/Arello-Mobile/Moxy/tree/master/moxy-templates)
 
 Adding MVP templates to Android Studio:
 <ul>
