@@ -4,7 +4,7 @@ File Templates for Android MVP project inspired by [Moxy Templates](https://gith
 Adding MVP templates to Android Studio:
 <ul>
 	<li> Download templates
-	<li> Copy folders MVPActivity and MVPFragment to ANDROID_STUDIO_DIR/plugins/android/lib/templates/other</li>
+	<li> Copy folders template folders to ANDROID_STUDIO_DIR/plugins/android/lib/templates/other</li>
 	<li> Restart Android Studio</li>
   	<li> Select your package and go to File->New->MVP->MVPActivity or MVPFragment</li>
   	<li> ???</li>
